@@ -19,7 +19,7 @@ import {
   KeyRound,
 } from "lucide-react"
 
-import { SettingsProfileForm } from "@/components/settings-profile-form"
+import { SettingsProfileForm, UniversityEmail } from "@/components/settings-profile-form"
 
 // Simple section wrapper for a11y
 function SettingsSection({
@@ -112,7 +112,7 @@ export default function SettingsPage() {
             */}
 
             <div className="p-4">
-              <SettingsProfileForm.UniversityEmail />
+              <UniversityEmail />
             </div>
 
             {/* Campus Location */}

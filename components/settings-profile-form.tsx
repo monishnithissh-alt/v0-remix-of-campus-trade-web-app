@@ -148,7 +148,7 @@ function StatusPill({
   )
 }
 
-SettingsProfileForm.UniversityEmail = function UniversityEmail() {
+export function UniversityEmail() {
   const [state, setState] = usePersistedState<Persisted>({
     universityEmail: "",
     universityEmailVerified: false,
@@ -209,7 +209,7 @@ SettingsProfileForm.UniversityEmail = function UniversityEmail() {
   )
 }
 
-SettingsProfileForm.TwoFactor = function TwoFactor() {
+export function TwoFactor() {
   const [state, setState] = usePersistedState<Persisted>({
     twoFactorEnabled: false,
   })
@@ -236,7 +236,7 @@ SettingsProfileForm.TwoFactor = function TwoFactor() {
   )
 }
 
-SettingsProfileForm.Notifications = function Notifications() {
+export function Notifications() {
   const [state, setState] = usePersistedState<Persisted>({
     notificationsEnabled: true,
   })
