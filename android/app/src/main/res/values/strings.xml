@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">v0CampusTrade</string>
+    <string name="title_activity_main">v0CampusTrade</string>
+    <string name="package_name">com.example.campustrade</string>
+    <string name="custom_url_scheme">com.example.campustrade</string>
+</resources>

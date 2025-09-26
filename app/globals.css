@@ -1,6 +1,6 @@
 /* swap tw-animate-css to tailwindcss-animate to avoid @property parse error */
 @import "tailwindcss";
-@import "tailwindcss-animate";
+@plugin "tailwindcss-animate";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -124,6 +124,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
     background-image: linear-gradient(180deg, var(--gradient-start), var(--gradient-end));
